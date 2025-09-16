@@ -81,10 +81,10 @@ function checkGameOver() {
 function handleClick(index) {
   if (gameGrid[index] == "") {
     if(currentPlayer == player1){
-    boxes[index].textContent = "X";
+    boxes[index].textContent = "x";
     }
     else{
-    boxes[index].textContent = "O";
+    boxes[index].textContent = "o";
 
     }
     boxes[index].style.pointerEvents = "none";
