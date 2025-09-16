@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+
+.board{
+  width:90%;
+  max-width:20rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  aspect-ratio: 1/1;
+}
+
+.board-items{
+  position:relative;
+  width:100%;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+  font-size: 3rem;
+  color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.box1, .box2, .box4, .box5{
+  border-right:2px solid black;
+  border-bottom:2px solid black;
+}
+
+.box3, .box6{
+  border-bottom: 2px solid black;
+}
+
+.box7, .box8{
+  border-right:2px solid black;
+}
+
+.game{
+    display: none;
+}
+.active{
+    display:grid
+}
+
+.win{
+  background-color: rgba(0, 255, 0, 0.3);
+}
+
+.inactive{
+    display: none;
+}
