@@ -6,8 +6,8 @@ startButton.addEventListener("click", (e)=>{
 game.classList.add("active")
 first.classList.add("inactive")
 
-const player1 = document.querySelector("#player-1").value;
-const player2 = document.querySelector("#player-2").value;
+const player1 = document.querySelector("#player1").value;
+const player2 = document.querySelector("#player2").value;
 const boxes = document.querySelectorAll(".board-items");
 const message = document.querySelector(".message")
 
