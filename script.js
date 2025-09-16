@@ -33,7 +33,7 @@ function initGame() {
     element.classList.remove("win");
   });
 
-  message.textContent = `${currentPlayer} you're up`;
+  message.textContent = `${currentPlayer}, you're up`;
 }
 console.log("gameGrid", gameGrid);
 function swap() {
@@ -42,7 +42,7 @@ function swap() {
   } else {
     currentPlayer = player1;
   }
-  message.textContent = `${currentPlayer} you're up`;
+  message.textContent = `${currentPlayer}, you're up`;
 }
 function checkGameOver() {
   if (!gameGrid.includes("")) {
